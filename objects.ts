@@ -65,7 +65,7 @@ const earnings = calculatePayout(mySong);
 console.log(earnings);
 printSong(mySong);
 
-type Point = {
+type SPoint = {
   x: number;
   y: number;
   z?: number;
